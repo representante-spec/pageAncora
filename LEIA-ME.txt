@@ -1,0 +1,28 @@
+E-MAIL MARKETING – REPRESENTANTE AUTORIZADO ÂNCORA CONSÓRCIOS
+Versão SEM a logo Anatote
+
+PARA O SITE (Render)
+  Crie um Static Site no Render com o nome  ancora-consorcios  (gera
+  https://ancora-consorcios.onrender.com) e suba TUDO desta pasta na raiz do
+  repositório. Branch main · Build Command: echo "static" · Publish: .
+  index.html ...... versão web do e-mail (página inicial)
+  cadastro.html ... formulário de cadastro
+  assets/ ......... imagens
+  Se o endereço for outro, os links e as imagens do e-mail precisam
+  ser trocados (ancora-consorcios.onrender.com).
+
+PARA O MARKETING (ferramenta de disparo)
+  email-para-envio.html – colar como "HTML personalizado". Imagens em
+  https://ancora-consorcios.onrender.com/assets/ e botões levando para
+  https://ancora-consorcios.onrender.com/cadastro.html
+  utm_source=email · utm_medium=email · utm_campaign=representante-ancora
+  · utm_content = botão clicado (padrão do formulário: categoria-auto)
+
+PENDÊNCIAS
+  [ ] FORMULÁRIO SEM DESTINO: o endereço do webhook ainda não foi
+      configurado (ENDPOINT vazio no cadastro.html). As respostas não
+      são salvas até isso ser feito.
+  [ ] Conferir com a Âncora: categorias (auto, imóveis, pesados, moto)
+      e os textos das vantagens.
+  [ ] Descadastro pela ferramenta de disparo. O "Abrir no navegador" já aponta pro site.
+  [ ] Uso da marca Âncora autorizado pela Âncora.
